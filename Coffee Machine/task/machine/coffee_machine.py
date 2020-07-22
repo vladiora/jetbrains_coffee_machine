@@ -1,4 +1,4 @@
-class CoffeMachine:
+class CoffeeMachine:
 
     def __init__(self, water=400, milk=540, beans=120, cups=9, money=550):
         self.water = water
@@ -83,7 +83,7 @@ class CoffeMachine:
         self.money = 0
 
 
-coffee = CoffeMachine()
+coffee = CoffeeMachine()
 
 while True:
     if coffee.action == "buy":
